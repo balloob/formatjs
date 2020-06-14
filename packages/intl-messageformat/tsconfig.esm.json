@@ -1,7 +1,9 @@
 {
   "extends": "./tsconfig.json",
   "compilerOptions": {
+    "target": "ES2015",
     "module": "esnext",
-    "outDir": "lib"
+    "outDir": "lib",
+    "skipLibCheck": true
   }
 }
